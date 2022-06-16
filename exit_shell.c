@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * exit_shell - exits the shell
  *
@@ -28,4 +27,5 @@ int exit_shell(data_shell *datash)
 		datash->status = (ustatus % 256);
 	}
 	return (0);
+	
 }
